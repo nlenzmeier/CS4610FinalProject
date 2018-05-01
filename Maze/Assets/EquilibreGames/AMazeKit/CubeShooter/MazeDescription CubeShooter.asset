@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 911198356, guid: 6b70d62c4bc764ab58f95ccece6b4bce, type: 3}
+  m_Name: MazeDescription CubeShooter
+  m_EditorClassIdentifier: 
+  rooms:
+  - coords: {x: 2, y: 0, z: 7}
+    openedWays: 4
+    roomObject: {fileID: 0}
+  - coords: {x: 2, y: 0, z: 8}
+    openedWays: 10
+    roomObject: {fileID: 0}
+  - coords: {x: 1, y: 0, z: 8}
+    openedWays: 9
+    roomObject: {fileID: 0}
+  - coords: {x: 1, y: 0, z: 7}
+    openedWays: 12
+    roomObject: {fileID: 0}
+  - coords: {x: 1, y: 0, z: 6}
+    openedWays: 6
+    roomObject: {fileID: 0}
+  - coords: {x: 0, y: 0, z: 6}
+    openedWays: 9
+    roomObject: {fileID: 0}
+  - coords: {x: 0, y: 0, z: 5}
+    openedWays: 5
+    roomObject: {fileID: 0}
+  - coords: {x: 1, y: 0, z: 5}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 2, y: 0, z: 5}
+    openedWays: 6
+    roomObject: {fileID: 0}
+  - coords: {x: 2, y: 0, z: 6}
+    openedWays: 9
+    roomObject: {fileID: 0}
+  - coords: {x: 3, y: 0, z: 6}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 4, y: 0, z: 6}
+    openedWays: 10
+    roomObject: {fileID: 0}
+  - coords: {x: 4, y: 0, z: 5}
+    openedWays: 5
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 5}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 5}
+    openedWays: 14
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 6}
+    openedWays: 10
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 6}
+    openedWays: 5
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 7}
+    openedWays: 9
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 7}
+    openedWays: 6
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 8}
+    openedWays: 10
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 8}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 4, y: 0, z: 8}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 3, y: 0, z: 8}
+    openedWays: 9
+    roomObject: {fileID: 0}
+  - coords: {x: 3, y: 0, z: 7}
+    openedWays: 5
+    roomObject: {fileID: 0}
+  - coords: {x: 4, y: 0, z: 7}
+    openedWays: 2
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 4}
+    openedWays: 12
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 3}
+    openedWays: 6
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 3}
+    openedWays: 9
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 2}
+    openedWays: 12
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 1}
+    openedWays: 5
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 1}
+    openedWays: 14
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 2}
+    openedWays: 8
+    roomObject: {fileID: 0}
+  - coords: {x: 6, y: 0, z: 0}
+    openedWays: 6
+    roomObject: {fileID: 0}
+  - coords: {x: 5, y: 0, z: 0}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 4, y: 0, z: 0}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 3, y: 0, z: 0}
+    openedWays: 3
+    roomObject: {fileID: 0}
+  - coords: {x: 2, y: 0, z: 0}
+    openedWays: 5
+    roomObject: {fileID: 0}
+  - coords: {x: 2, y: 0, z: 1}
+    openedWays: 8
+    roomObject: {fileID: 0}
+  roomKeys:
+  - R2_0_7
+  - R2_0_8
+  - R1_0_8
+  - R1_0_7
+  - R1_0_6
+  - R0_0_6
+  - R0_0_5
+  - R1_0_5
+  - R2_0_5
+  - R2_0_6
+  - R3_0_6
+  - R4_0_6
+  - R4_0_5
+  - R5_0_5
+  - R6_0_5
+  - R6_0_6
+  - R5_0_6
+  - R5_0_7
+  - R6_0_7
+  - R6_0_8
+  - R5_0_8
+  - R4_0_8
+  - R3_0_8
+  - R3_0_7
+  - R4_0_7
+  - R6_0_4
+  - R6_0_3
+  - R5_0_3
+  - R5_0_2
+  - R5_0_1
+  - R6_0_1
+  - R6_0_2
+  - R6_0_0
+  - R5_0_0
+  - R4_0_0
+  - R3_0_0
+  - R2_0_0
+  - R2_0_1
+  m_bounds:
+    m_Center: {x: 2.75, y: 0, z: 3.75}
+    m_Extent: {x: 3.25, y: 0.5, z: 4.25}
+  floors:
+  - m_name: Ground floor
+    m_level: 0
+    m_color: {r: 0, g: 0, b: 1, a: 1}
+    m_preview: {fileID: 0}
+    m_visible: 1
+    material: {fileID: 0}
+    m_alpha: 1
+  m_globalColor: {r: 1, g: 1, b: 1, a: 1}
+  m_globalVisibility: 1

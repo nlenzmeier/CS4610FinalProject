@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: 572cd52dfbe244982b806a3936738cc0
+timeCreated: 1524947774
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FencePost00
+    100004: FencePost01
+    100006: FencePost02
+    100008: FencePost03
+    100010: FencePost04
+    100012: FencePost05
+    100014: FencePost06
+    100016: FencePost07
+    100018: FencePost08
+    100020: FencePost09
+    100022: FencePost10
+    100024: FencePost11
+    100026: FencePost12
+    100028: FencePost13
+    100030: FencePost14
+    100032: FencePost15
+    100034: FencePost16
+    100036: FencePost17
+    100038: FencePost18
+    100040: FencePost19
+    100042: FencePost20
+    100044: FencePost21
+    100046: FencePost22
+    100048: FencePost23
+    100050: FencePost24
+    100052: FencePost25
+    100054: FencePost26
+    400000: //RootNode
+    400002: FencePost00
+    400004: FencePost01
+    400006: FencePost02
+    400008: FencePost03
+    400010: FencePost04
+    400012: FencePost05
+    400014: FencePost06
+    400016: FencePost07
+    400018: FencePost08
+    400020: FencePost09
+    400022: FencePost10
+    400024: FencePost11
+    400026: FencePost12
+    400028: FencePost13
+    400030: FencePost14
+    400032: FencePost15
+    400034: FencePost16
+    400036: FencePost17
+    400038: FencePost18
+    400040: FencePost19
+    400042: FencePost20
+    400044: FencePost21
+    400046: FencePost22
+    400048: FencePost23
+    400050: FencePost24
+    400052: FencePost25
+    400054: FencePost26
+    2100000: wire_255255255
+    2300000: FencePost00
+    2300002: FencePost01
+    2300004: FencePost02
+    2300006: FencePost03
+    2300008: FencePost04
+    2300010: FencePost05
+    2300012: FencePost06
+    2300014: FencePost07
+    2300016: FencePost08
+    2300018: FencePost09
+    2300020: FencePost10
+    2300022: FencePost11
+    2300024: FencePost12
+    2300026: FencePost13
+    2300028: FencePost14
+    2300030: FencePost15
+    2300032: FencePost16
+    2300034: FencePost17
+    2300036: FencePost18
+    2300038: FencePost19
+    2300040: FencePost20
+    2300042: FencePost21
+    2300044: FencePost22
+    2300046: FencePost23
+    2300048: FencePost24
+    2300050: FencePost25
+    2300052: FencePost26
+    3300000: FencePost00
+    3300002: FencePost01
+    3300004: FencePost02
+    3300006: FencePost03
+    3300008: FencePost04
+    3300010: FencePost05
+    3300012: FencePost06
+    3300014: FencePost07
+    3300016: FencePost08
+    3300018: FencePost09
+    3300020: FencePost10
+    3300022: FencePost11
+    3300024: FencePost12
+    3300026: FencePost13
+    3300028: FencePost14
+    3300030: FencePost15
+    3300032: FencePost16
+    3300034: FencePost17
+    3300036: FencePost18
+    3300038: FencePost19
+    3300040: FencePost20
+    3300042: FencePost21
+    3300044: FencePost22
+    3300046: FencePost23
+    3300048: FencePost24
+    3300050: FencePost25
+    3300052: FencePost26
+    4300000: FencePost00
+    4300002: FencePost01
+    4300004: FencePost02
+    4300006: FencePost03
+    4300008: FencePost04
+    4300010: FencePost05
+    4300012: FencePost06
+    4300014: FencePost07
+    4300016: FencePost08
+    4300018: FencePost09
+    4300020: FencePost10
+    4300022: FencePost11
+    4300024: FencePost12
+    4300026: FencePost13
+    4300028: FencePost14
+    4300030: FencePost15
+    4300032: FencePost16
+    4300034: FencePost17
+    4300036: FencePost18
+    4300038: FencePost19
+    4300040: FencePost20
+    4300042: FencePost21
+    4300044: FencePost22
+    4300046: FencePost23
+    4300048: FencePost24
+    4300050: FencePost25
+    4300052: FencePost26
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
