@@ -34,7 +34,8 @@ public class Timer : MonoBehaviour {
 		if (highScoreState == -1) { 
 			HighScore.text = "None"; 
 		} else { 
-			HighScore.text = highScoreState.ToString(); 
+			HighScore.text = getTimeStamp (highScoreState);
+			//HighScore.text = highScoreState.ToString(); 
 		}
 	}
 
@@ -53,7 +54,22 @@ public class Timer : MonoBehaviour {
 			} 
 		}
 
-		HighScore.text = PlayerPrefs.GetFloat("HighScore", 999).ToString();
+		highScoreState = PlayerPrefs.GetFloat("HighScore", -1);
 
+//		string minutes = ((int)highScoreState / 60).ToString();
+//		string seconds = (highScoreState % 60).ToString("f2");
+
+		//HighScore.text = PlayerPrefs.GetFloat("HighScore", 999).ToString();
+		HighScore.text = getTimeStamp(PlayerPrefs.GetFloat("HighScore", 999)); 
+	}
+
+	public string getTimeStamp(float time) {
+		string minutes = ((int)highScoreState / 60).ToString();
+		string seconds = (highScoreState % 60).ToString("f2");
+
+		return minutes + ":" + seconds;
 	}
 }
+
+
+	
