@@ -24,9 +24,16 @@ public class Timer : MonoBehaviour {
 
 		float t = Time.time - startTime;
 
-		string minutes = ((int)t / 60).ToString();
-		string seconds = (t % 60).ToString("f2");
-
+		string minutes = ((int)t / 60).ToString("00");
+        string seconds = "";
+        if(t % 60 < 10)
+        {
+             seconds = (t % 60).ToString("f2");
+             string appToMe = "0";
+             seconds = appToMe + seconds;
+        }
+        else { seconds = (t % 60).ToString("f2"); }
+        
 		timerText.text = minutes + ":" + seconds;
 
 		// initializes highScoreState to -1 IF there’s no saved high score. 
@@ -64,8 +71,8 @@ public class Timer : MonoBehaviour {
 	}
 
 	public string getTimeStamp(float time) {
-		string minutes = ((int)highScoreState / 60).ToString();
-		string seconds = (highScoreState % 60).ToString("f2");
+		string minutes = ((int)highScoreState / 60).ToString("00");
+		string seconds = (highScoreState % 60).ToString("00");
 
 		return minutes + ":" + seconds;
 	}
