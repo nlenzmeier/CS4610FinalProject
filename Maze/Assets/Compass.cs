@@ -2,6 +2,8 @@
 using UnityEngine;
 public class Compass : MonoBehaviour
 {
+	// adapted from a unity compass tutorial on youtube by Theodore
+	
 	public RawImage CompassImage;
 	public Transform Player;
 	public Text CompassDirectionText;
@@ -12,12 +14,16 @@ public class Compass : MonoBehaviour
 		CompassImage.uvRect = new Rect(Player.localEulerAngles.y / 360, 0, 1, 1);
 
 		// Get a copy of your forward vector
+		// "finding north"
 		Vector3 forward = Player.transform.forward;
 
 		// Zero out the y component of your forward vector to only get the direction in the X,Z plane
+		// make sure its "true north" 
 		forward.y = 0;
 
 		//Clamp our angles to only 5 degree increments
+		// The tutorial maker was correct, this looks kinda bad when we update every degree
+		
 		float headingAngle = Quaternion.LookRotation(forward).eulerAngles.y;
 		headingAngle = 5 * (Mathf.RoundToInt(headingAngle / 5.0f));
 
@@ -25,7 +31,7 @@ public class Compass : MonoBehaviour
 		int displayangle;
 		displayangle = Mathf.RoundToInt(headingAngle);
 
-		//Set the text of Compass Degree Text to the clamped value, but change it to the letter if it is a True direction
+		//Set the text of Compass Degree Text indicator to the clamped value, Use a letter if it is a cardinal direction.
 		switch (displayangle)
 		{
 		case 0:
@@ -64,5 +70,8 @@ public class Compass : MonoBehaviour
 			CompassDirectionText.text = headingAngle.ToString ();
 			break;
 		}
+		
+		// thought about adding an objective marker on the compass image like a lot of modern games have, Ultimately decided
+		// that would probably make getting through the maze too simple.
 	}
 }
