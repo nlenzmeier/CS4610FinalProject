@@ -13,14 +13,12 @@ public class PauseGame : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Pause();
-
         }
        
 	}
 
     public void Pause()
     {
-
         if (PauseCanvas.gameObject.activeInHierarchy == false)
         {
             PauseCanvas.gameObject.SetActive(true);

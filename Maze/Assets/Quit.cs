@@ -15,6 +15,7 @@ public class Quit : MonoBehaviour {
 	public void Button_OnClick()
 	{
 		Debug.Log("Quit Clicked");
-		Application.Quit();
+        m_audio_src.Play();
+        Application.Quit();
 	}
 }

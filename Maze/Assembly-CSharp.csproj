@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{203E294F-6A57-B963-05D6-83EB30201135}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_1;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AudioSettings.cs" />
+     <Compile Include="Assets\Compass.cs" />
+     <Compile Include="Assets\DirectionsRedirect.cs" />
+     <Compile Include="Assets\EndNatureAudio.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\Crate.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\CSPlayer.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\DontGoThroughThings.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\EndLevelMazeUpdate.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\EndLevelTrigger.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\HideDelayed.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\Monster.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\Mute.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\Projectile.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\ReplayGui.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\ScatterCrates.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\ScatterMonsters.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\CubeShooter\Scripts\SwitchLight.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\SimplePack\Scripts\HandleTeleportation.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\SimplePack\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\SimplePack\Scripts\TeleportPlayer.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\ActiveState.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\ClimbLadder.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\FadeMusic.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\FollowPlayer.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\GlobalHandler.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\Guard.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\HideInCloset.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\HideInDesk.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\JumpOnCopier.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\MoveFromDelta.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\OpenCar.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\OpenCloseDoor.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\Game\SneakerPlayer.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\LevelDesign\AddCar.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\LevelDesign\AddFurniture.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\LevelDesign\AddGuard.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\LevelDesign\SetupPlayer.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\LevelDesign\TimeSlider.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\SimpleSprite\CreateSprite.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\SimpleSprite\SimpleSprite.cs" />
+     <Compile Include="Assets\EquilibreGames\AMazeKit\Sneaker\scripts\SimpleSprite\SimpleSpriteAnimation.cs" />
+     <Compile Include="Assets\FadeOut.cs" />
+     <Compile Include="Assets\FootSteps.cs" />
+     <Compile Include="Assets\horizontalCompass\Compass.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\BasicMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\DivisionMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\MazeCell.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\MazeSpawner.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\OldestTreeMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RandomTreeMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RecursiveMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RecursiveTreeMazeGenerator.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\RollerBall.cs" />
+     <Compile Include="Assets\MazeGenerator\Scripts\TreeMazeGenerator.cs" />
+     <Compile Include="Assets\PauseGame.cs" />
+     <Compile Include="Assets\PlayButton.cs" />
+     <Compile Include="Assets\Quit.cs" />
+     <Compile Include="Assets\ResetTime.cs" />
+     <Compile Include="Assets\Return.cs" />
+     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
+     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
+     <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />
+     <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\WinScript.cs" />
+     <None Include="Assets\ely_hills\ely_hills.shader" />
+     <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\EquilibreGames\AMazeKit\Sneaker\sprites\atlas Sneaker.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="AMazeKit">
+ <HintPath>C:/Users/galus/source/repos/CS4610FinalProject/Maze/Assets/EquilibreGames/AMazeKit/AMazeKit.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F50B21A0-D44A-985C-E809-9D8EA980A230}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

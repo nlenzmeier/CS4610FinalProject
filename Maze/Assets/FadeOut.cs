@@ -1,34 +1,27 @@
-﻿/*
-Attach this to an object with an AudioSource to have it
-stick around and then fade out when we switch scenes.
-*/
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class FadeOut : MonoBehaviour
 {
-    #region Public Properties
-
     public float fadeOutTime = 3f;
-
-    #endregion
-    //--------------------------------------------------------------------------------
-    #region Private Properties
+    public string tag_str = "";
 
     AudioSource audioSource;
     bool fading;
     float fadePerSec;
+    string thisScene = "";
 
-    #endregion
-    //--------------------------------------------------------------------------------
-    #region MonoBehaviour Events
     void Start()
     {
+        thisScene = SceneManager.GetActiveScene().name;
+        GameObject[] objs = GameObject.FindGameObjectsWithTag(tag_str);
+        if (objs.Length > 1)
+            Destroy(gameObject);
         audioSource = GetComponent<AudioSource>();
         Debug.Assert(audioSource != null);
+        audioSource.Play();
 
-        Object.DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject);
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -45,17 +38,15 @@ public class FadeOut : MonoBehaviour
                 audioSource.volume, 0, fadePerSec * Time.deltaTime);
         }
     }
-
-    #endregion
-    //--------------------------------------------------------------------------------
-    #region Private Methods
-
+    
     void OnSceneLoaded(Scene loadedScene, LoadSceneMode mode)
     {
-        fading = true;
-        fadePerSec = audioSource.volume / fadeOutTime;
-        Destroy(gameObject, fadeOutTime);
+        if( ( loadedScene.name != "Directions" ) && ( loadedScene.name != thisScene ) )
+        {
+            fading = true;
+            fadePerSec = audioSource.volume / fadeOutTime;
+            Destroy(gameObject, fadeOutTime);
+        }
     }
 
-    #endregion
 }

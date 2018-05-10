@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Monster
+  - Coin
+  - Floor
+  - menu_music
+  - nature_music
   layers:
   - Default
   - TransparentFX
