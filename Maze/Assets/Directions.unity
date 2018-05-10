@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -48, y: 135}
+  m_AnchoredPosition: {x: -48, y: 192}
   m_SizeDelta: {x: 246.7, y: 62.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956843580
@@ -860,7 +860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -53, y: -125}
+  m_AnchoredPosition: {x: -53, y: -84}
   m_SizeDelta: {x: 731.5, y: 443.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732419678
@@ -897,9 +897,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "The rules of the game are very \nsimple: get through the maze as \nquickly
     as possible. In order to \nmove your character, use the \nfollowing commands:\nA:
-    turn left\nW : move forward\nD: move right\nAt the top you will see a compass
-    to help you navigate. Below it you will see your time.\nTry to finish the game
-    as quickly as possible. Good luck! "
+    turn left\nW : move forward\nD: move right\nESC: pause game\nAt the top you will
+    see a compass to help you navigate. Below it you will see your time.\nTry to finish
+    the game as quickly as possible. Good luck! "
 --- !u!222 &1732419679
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -993,14 +993,14 @@ RectTransform:
   m_GameObject: {fileID: 1951269871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.1624999, z: 1}
   m_Children: []
   m_Father: {fileID: 1233430107}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -36, y: -71}
+  m_AnchoredPosition: {x: -36, y: -81}
   m_SizeDelta: {x: -339.7, y: -244.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1951269873
