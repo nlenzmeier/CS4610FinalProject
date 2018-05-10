@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour {
 
-    public Transform PauseCanvas; 
+    public Transform PauseCanvas;
+    public Transform DirCanvas;
 	
 	// Update is called once per frame
 	void Update () {
@@ -35,7 +36,14 @@ public class PauseGame : MonoBehaviour {
 
     public void Directions()
     {
-        SceneManager.LoadScene("Directions", LoadSceneMode.Single);
+        DirCanvas.gameObject.SetActive(true);
+
+    }
+
+    public void UnDirections()
+    {
+        // undoes directions
+        DirCanvas.gameObject.SetActive(false);
     }
 
     public void MainMenu()

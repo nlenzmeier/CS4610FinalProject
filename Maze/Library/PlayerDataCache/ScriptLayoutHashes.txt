@@ -195,6 +195,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 21984f001d5a114ee9fbf62810ee8eb7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.SpecularLighting
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Quit
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit
 48718eef89369acea1a78774e6908099 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.TargetFieldOfView
 2c62b9ae79b8b54dd7b55fa7d311452b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Water
@@ -212,6 +213,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.DynamicShadowSettings
 9e37e36625cfeb9618ab3e5d1cf003d4 Assembly-CSharp.dll:.Crate
 602017ac837ce39de79e6b98478ee720 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.SimpleActivatorMenu
+e332bb7102c7c42df6a7aa5227c4e9e6 Assembly-CSharp.dll:.PauseGame
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -246,5 +248,3 @@ ed6479b65afe88623698899a4631af3a Assembly-CSharp.dll:.EndLevelMazeUpdate
 a042273cd7420a5cf000d34c0a99913d Assembly-CSharp.dll:.SimpleSpriteAnimation
 fc0a80edd83a40ba0d19677fb9e4e477 Assembly-CSharp.dll:.MoveFromDelta
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Quit
-fa0f94f566998a1df4575aa7c5f30d75 Assembly-CSharp.dll:.PauseGame
